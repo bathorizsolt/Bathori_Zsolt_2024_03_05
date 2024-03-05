@@ -11,6 +11,6 @@ class MyFirstScript : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.up * speed * Time.deltaTime;
+        transform.position += Vector3.up * speed * Time.deltaTime;
     }
 }
